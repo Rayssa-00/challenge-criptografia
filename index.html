@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img class="cabecalho__logo" src="/img/icons8-pesquisar (1).gif">
+        <h1 class="cabecalho__titulo">DecorAlura</h1>
+    </div>
+
+    <div class="main">
+        <section class="sessao__principal">
+            <form class="sessao__formulario" action="">
+                <label for="input-text" class="sessao__texto">Digite um texto que deseja Criptografar
+                    <p class="sessao__informativo">(Apenas letras minúsculas)</p>
+                </label>
+                <textarea data-texto class="sessao__caixa-texto" name="texto" cols="50" placeholder="Digite seu texto"></textarea>
+                <div class="sessao__botao">   
+                    <input class="sessao__btn" value="Criptografar" onclick="botaoEncriptar()">
+                    <input class="sessao__btn" value="Descriptografar" onclick="botaoDesencriptar()">
+                </div>
+            </form>
+        </section>
+
+        <div class="botao__limpar" >
+            <button class="botao__btn" data-botao type="reset">Limpar</button>
+        </div>
+
+        <article class="sessao__lateral">
+            <h2 class="sessao__texto">Nenhuma mensagem encontrada</h2>
+            <textarea class="sessao__caixa-texto" data-mensagem name="mensagem" cols="50" readonly></textarea>
+            <input class="sessao__btn" data-btn type="submit" value="Copiar">
+            
+        </article>
+    </div>
+
+    <footer class="rodape">
+        Desenvolvido por &copyRayssa Frota - 2022
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
