@@ -12,9 +12,13 @@ body {
     background: linear-gradient(180deg, #ffff 85%, #dce8ee);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 2rem;
     width: 100%;
+}
+
+.cabecalho__logo {
+    width: 50px;
 }
 
 .main {
@@ -98,4 +102,10 @@ body {
     text-align: center;
     font-size: 17px;
     color: #00000073;
+}
+
+/* Media query mobile */
+
+@media screen (min-width: 600px) {
+    
 }
