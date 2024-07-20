@@ -1,0 +1,66 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .sessao__formulario, .sessao__lateral{
+        height: 70vh;
+        width: 85vw;
+    }
+
+    .sessao__lateral {
+        margin-top: -5rem;
+        margin-bottom: 1rem;
+    }
+    .sessao__caixa-texto{
+        width: 100%;
+        height: 35vh;
+    }
+    .sessao__texto {
+        text-align: center;
+    }
+
+    .sessao__btn, .botao__btn{
+        width: 35vw;
+        font-size: .85rem;
+        font-weight: bolder;
+    }
+
+    .sessao__btn:hover, .botao__btn:hover {
+        font-size: .85rem;
+    }
+
+    .botao__btn {
+        margin-top: 3rem;
+    }
+
+    .rodape {
+        text-align: center;
+    }
+}
+
+/* Responsive Laptop */
+
+/*@media screen and (min-width: 769px) and (max-width: 1024px){
+    .sessao__formulario, .sessao__lateral{
+        height: 80vh;
+        width: 85vw;
+    }
+
+    .sessao__btn, .botao__btn{
+        width: 35vw;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .sessao__btn:hover, .botao__btn:hover {
+        font-size: 1.25rem;
+    }
+
+    .sessao__texto{
+        font-size: 20px;
+    }
+} */
