@@ -1,3 +1,3 @@
-# challenge-criptografia
-Projeto de criptografia criado com Javascript 
-Atualização da responsividade 
+# Projeto de criptografia :computer:
+Projeto de criptografia de palavras criado com Javascript 
+
